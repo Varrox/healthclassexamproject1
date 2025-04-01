@@ -11,3 +11,10 @@ header {
     padding: 15px;
     box-shadow: black;
 }
+
+button
+{
+    outline: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+}
