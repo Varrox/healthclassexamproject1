@@ -12,3 +12,8 @@ function calculateCalories(age, weight, kilograms, heightInInches, gender) // ge
 {
     return 655 + (gender ? 9.6 : 4.3) * weight * (kilograms ? 2.205 : 1) + (gender ? 1.85 : 4.7) * heightInInches - 4.7 * age
 }
+
+function main()
+{
+    console.log("hello")
+}
