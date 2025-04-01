@@ -2,4 +2,11 @@ html
 {
     background-color: darkslategray;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:white;
+}
+
+header {
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 15px;
 }
