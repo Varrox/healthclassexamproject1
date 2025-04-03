@@ -1,6 +1,6 @@
 function calculateTsp(grams)
 {
-    return 12.5 / grams;
+    return  grams / 12.5;
 }
 
 function calculateWater(weight, kilograms)
@@ -16,4 +16,5 @@ function calculateCalories(age, weight, kilograms, heightInInches, gender) // ge
 function main()
 {
     console.log("hello")
+    
 }

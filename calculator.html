@@ -15,10 +15,11 @@
     </header>
     <main style="align-self: center;">
         <h1>Health Calculators</h1>
-        <form>
+        <form style="background-color: white; border-radius: 20px; color: black; padding: 20px;" method="post" action="#">
             <h2>Sugar in grams to tablespoons</h2>
             <input name="sttbp">
-            <button type="submit">Convert!</button>
+            <button onsubmit="document.getElementsByName('sttbpr')[0].innerHTML = 'Tablespoons = ' + calculateTsp(document.getElementsByName('sttbp')[0].value); return false;">Convert!</button>
+            <h2 name="sttbpr">Tablespoons = 0</h2>
         </form>
     </main>
 </body>
