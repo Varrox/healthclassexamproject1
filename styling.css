@@ -11,10 +11,16 @@ img
 }
 
 header {
-    background-color: #F1F1F1;
+    background-color: #242424;
     text-align: center;
     padding: 15px;
     box-shadow: black;
+    border-radius: 20px;
+}
+
+div
+{
+    background-color: #F1F1F1;
     border-radius: 20px;
 }
 
@@ -22,6 +28,8 @@ main
 {
     align-self: center; 
     text-align: center;
+    background-color: #F1F1F1;
+    border-radius: 20px;
 }
 
 button
