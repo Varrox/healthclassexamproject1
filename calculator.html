@@ -18,7 +18,7 @@
         <form method="post" action="#">
             <h2>Sugar in grams to tablespoons</h2>
             <input name="sttbp">
-            <button onsubmit="document.getElementsByName('sttbpr')[0].innerHTML = 'Tablespoons = ' + calculateTsp(document.getElementsByName('sttbp')[0].value); return false;">Convert!</button>
+            <button type="submit" onsubmit="document.getElementsByName('sttbpr')[0].innerHTML = 'Tablespoons = ' + calculateTsp(document.getElementsByName('sttbp')[0].value); return false;">Convert!</button>
             <h2 name="sttbpr">Tablespoons = 0</h2>
         </form>
     </main>
