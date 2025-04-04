@@ -33,4 +33,6 @@ form
     border-radius: 20px; 
     color: black; 
     padding: 20px 30px;
+    text-align: left;
+    align-items: start;
 }
