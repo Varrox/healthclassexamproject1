@@ -1,8 +1,13 @@
 html
 {
-    background-color: darkslategray;
+    background-color: rgb(208, 241, 241);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color:white;
+    color:rgb(0, 0, 0);
+}
+
+img
+{
+    border-radius: 20px;
 }
 
 header {
