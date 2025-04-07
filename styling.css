@@ -54,7 +54,7 @@ form
 
 .head > *
 {
-    size: 150%;
+    /*size: 150%;*/
     padding: 5%;
     align-self: center;
 }
