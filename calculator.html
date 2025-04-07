@@ -1,27 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://varrox.github.io/healthclassexamproject1/styling.css">
-    <title>Meal Planner - Calculator</title>
-</head>
-<body>
-    <script src="https://varrox.github.io/healthclassexamproject1/script.js"></script>
-    <script>main()</script>
-    <header class="head">
-        <button onclick="window.location.href = 'https\://varrox.github.io/healthclassexamproject1/index'">Main page</button>
-        <button>Calculators</button>
-    </header>
-    <main>
-        <h1>Health Calculators</h1>
-        <hr>
-        <form method="post" action="#">
-            <h2>Sugar in grams to tablespoons</h2>
-            <input name="sttbp">
-            <button type="submit" onsubmit="document.getElementsByName('sttbpr')[0].innerHTML = 'Tablespoons = ' + calculateTsp(document.getElementsByName('sttbp')[0].value); return false;">Convert!</button>
-            <h2 name="sttbpr">Tablespoons = 0</h2>
-        </form>
-    </main>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://varrox.github.io/healthclassexamproject1/styling.css">
+        <title>Meal Planner - Calculator</title>
+    </head>
+    <body>
+        <script src="https://varrox.github.io/healthclassexamproject1/script.js"></script>
+        <script>main()</script>
+        <header class="head">
+            <button onclick="window.location.href = 'https\://varrox.github.io/healthclassexamproject1/index'">Main page</button>
+            <button>Calculators</button>
+        </header>
+        <main>
+            <h1>Health Calculators</h1>
+            <hr>
+            
+            <form method="post" action="#">
+                <h2>Sugar in grams to tablespoons</h2>
+                <input name="sttbp">
+                <button type="submit" onsubmit="document.getElementsByName('sttbpr')[0].innerHTML = 'Tablespoons = ' + calculateTsp(document.getElementsByName('sttbp')[0].value); return false;">Convert!</button>
+                <h2 name="sttbpr">Tablespoons = 0</h2>
+            </form>
+        </main>
+    </body>
+    <footer>
+        Open source website
+    </footer>
 </html>
