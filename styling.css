@@ -36,7 +36,7 @@ button
     size: 250%;
 }
 
-form
+/*form
 {
     background-color: white; 
     border-radius: 20px; 
@@ -44,7 +44,7 @@ form
     padding: 20px 30px;
     text-align: left;
     align-items: start;
-}
+}*/
 
 .head > *
 {
