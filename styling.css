@@ -50,3 +50,9 @@ form
     text-align: left;
     align-items: start;
 }
+
+.head > *
+{
+    size: 200%;
+    padding: 5%;
+}
