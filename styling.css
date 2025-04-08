@@ -47,7 +47,7 @@ button:active
     padding: 10px;
 }
 
-/*form
+form
 {
     background-color: white; 
     border-radius: 20px; 
@@ -55,11 +55,4 @@ button:active
     padding: 20px 30px;
     text-align: left;
     align-items: start;
-}*/
-
-.head > *
-{
-    /*size: 150%;*/
-    padding: 5%;
-    align-self: center;
 }
