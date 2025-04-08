@@ -14,18 +14,19 @@
             <button>Calculators</button>
         </header>
         <main>
-            <h1>Health Calculators</h1>
-            <hr>
-            
-            <form method="post" action="#">
-                <h2>Sugar in grams to tablespoons</h2>
-                <input name="sttbp">
-                <button type="submit" onsubmit="document.getElementsByName('sttbpr')[0].innerHTML = 'Tablespoons = ' + calculateTsp(document.getElementsByName('sttbp')[0].value); return false;">Convert!</button>
-                <h2 name="sttbpr">Tablespoons = 0</h2>
-            </form>
+            <h1>Health Calculators</h1><hr>
+            <div>
+                <form>
+                    <h2>Sugar in grams to tablespoons</h2>
+                    <input name="sttbp">
+                    <button type="button" onclick="document.getElementsByName('sttbpr')[0].innerHTML = 'Tablespoons = ' + calculateTsp(document.getElementsByName('sttbp')[0].value); return false;">Convert!</button>
+                    <h2 name="sttbpr">Tablespoons = 0</h2>
+                </form>
+            </div>
         </main>
+        <hr>
     </body>
     <footer>
-        Open source website
+        This is an open source website!
     </footer>
 </html>
