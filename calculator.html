@@ -26,12 +26,28 @@
                 <hr>
                 <form>
                     <h2>Calculate daily water consumtion</h2>
-                    <label for="wwc">Body weight:</label>
+                    <label for="wwc">Body weight in pounds:</label>
                     <input name="wwc" type="number"><br><br>
-                    <input name="kwc" type="checkbox">
-                    <label for="kwc">Kilograms</label><br><br>
-                    <button type="button" onclick="document.getElementsByName('wc')[0].innerHTML = 'Ounces = ' + calculateWater(document.getElementsByName('wwc')[0].value, document.getElementsByName('kwc')[0].value);">Convert!</button>
+                    <button type="button" onclick="document.getElementsByName('wc')[0].innerHTML = 'Ounces = ' + calculateWater(document.getElementsByName('wwc')[0].value)">Convert!</button>
                     <h2 name="wc">Ounces = 0</h2>
+                </form>
+                <hr>
+                <form>
+                    <h2>Calculate daily calorie intake</h2>
+                    <input name="wci" type="number">
+                    <label for="wci">Body weight in pounds</label><br><br>
+                    <input name="aci" type="number">
+                    <label for="aci">Age</label><br><br>
+                    <input name="hci" type="number">
+                    <label for="hci">Height in inches</label><br><br>
+                    <label for="gci">Biological sex:</label>
+                    <select name="gci">
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                    </select><br><br>
+                    
+                    <button type="button" onclick="document.getElementsByName('c')[0].innerHTML = 'Calories = ' + calculateCalories(document.getElementsByName('aci')[0].value, document.getElementsByName('wci')[0].value, document.getElementsByName('hci')[0].value, document.getElementsByName('gci')[0].value)">Convert!</button>
+                    <h2 name="c">Calories = 0</h2>
                 </form>
             </div>
         </main>

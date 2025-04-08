@@ -3,18 +3,12 @@ function calculateTsp(grams)
     return  grams / 12.5;
 }
 
-function calculateWater(weight, kilograms)
+function calculateWater(weight)
 {
-    return weight * (kilograms == true ? 2.205 : 1) / 2;
+    return weight / 2;
 }
 
-function calculateCalories(age, weight, kilograms, heightInInches, gender) // gender is true for male and false for female
+function calculateCalories(age, weight, heightInInches, gender)
 {
-    return 655 + (gender ? 9.6 : 4.3) * weight * (kilograms ? 2.205 : 1) + (gender ? 1.85 : 4.7) * heightInInches - 4.7 * age
-}
-
-function main()
-{
-    console.log("hello")
-    
+    return 655 + (gender ? 9.6 : 4.3) * weight + (gender == "male" ? 1.85 : 4.7) * heightInInches - 4.7 * age;
 }
