@@ -37,13 +37,14 @@ button
     border-radius: 5px;
     box-shadow: #242424;
     size: 150%;
-    transition-property: background-color;
+    transition-property: background-color, size;
     transition-duration: 0.2s;
 }
 
 button:active
 {
     background-color: #8b8b8b;
+    size: 120%;
 }
 
 /*form
