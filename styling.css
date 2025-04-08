@@ -36,6 +36,7 @@ button
     border-radius: 5px;
     box-shadow: #242424;
     padding: 15px;
+    margin:initial;
     transition-property: background-color, padding;
     transition-duration: 0.2s;
 }
