@@ -35,7 +35,15 @@ button
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 200;
     border-radius: 5px;
+    box-shadow: #242424;
     size: 150%;
+    transition-property: background-color;
+    transition-duration: 0.2s;
+}
+
+button:active
+{
+    background-color: #8b8b8b;
 }
 
 /*form
