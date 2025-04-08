@@ -5,7 +5,7 @@ function calculateTsp(grams)
 
 function calculateWater(weight, kilograms)
 {
-    return weight * (kilograms ? 2.205 : 1) / 2;
+    return weight * (kilograms == true ? 2.205 : 1) / 2;
 }
 
 function calculateCalories(age, weight, kilograms, heightInInches, gender) // gender is true for male and false for female
