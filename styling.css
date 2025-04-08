@@ -36,7 +36,7 @@ button
     font-weight: 200;
     border-radius: 5px;
     box-shadow: #242424;
-    size: 150%;
+    size: 110%;
     transition-property: background-color, size;
     transition-duration: 0.2s;
 }
@@ -44,7 +44,7 @@ button
 button:active
 {
     background-color: #8b8b8b;
-    size: 120%;
+    size: 100%;
 }
 
 /*form
