@@ -36,15 +36,15 @@ button
     font-weight: 200;
     border-radius: 5px;
     box-shadow: #242424;
-    size: 110%;
-    transition-property: background-color, size;
+    padding: 15px;
+    transition-property: background-color, padding;
     transition-duration: 0.2s;
 }
 
 button:active
 {
     background-color: #8b8b8b;
-    size: 100%;
+    padding: 10px;
 }
 
 /*form
